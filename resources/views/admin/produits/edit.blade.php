@@ -18,6 +18,11 @@
         <label for="">Promo</label>
         <input type="text" name="promo" value="{{ $produit->promo }}" class="form-control">
 
+        <label for="">ispromo</label>
+        <input type="checkbox" name="ispromo" value="{{ $produit->ispromo }}">
+
+        <label for="">stocke</label>
+        <input type="text" name="stoke" value="{{ $produit->stocke }}" class="form-control">
 
         <input type="hidden" name="categorie" value="{{ $produit->categorie->id }}" class="form-control">
 

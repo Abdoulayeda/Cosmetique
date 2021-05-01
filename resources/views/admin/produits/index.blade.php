@@ -32,7 +32,10 @@
             <th>Titre</th>
             <th>Prix</th>
             <th>Prix Promo</th>
-            <th>promo</th>
+            <th>% promo</th>
+
+            <th>Ispromo</th>
+            <th>Stocke</th>
             <th>Description</th>
             <th>Photo</th>
             <th>Créé</th>
@@ -52,6 +55,8 @@
                     <td>{{ $produit->prix }}</td>
                     <td>{{ $produit->prixpromo }}</td>
                     <td>{{ $produit->promo }}</td>
+                    <td>{{ $produit->ispromo }}</td>
+                    <td>{{ $produit->stocke }}</td>
                     <td>{{ $produit->description }}
                     <td><img src="{{ $produit->imageproduit() }}" alt="" width="'80" height="80"></td>
                     </td>

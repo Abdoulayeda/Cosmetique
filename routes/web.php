@@ -18,7 +18,7 @@ use Illuminate\Support\Facades\Route;
 });*/
 
 Route::get('/',[\App\Http\Controllers\HomeController::class, 'index'])->name('home');
-Route::get('/sow/{id}',[\App\Http\Controllers\HomeController::class, 'show'])->name('detail');
+Route::get('/show/{id}',[\App\Http\Controllers\HomeController::class, 'show'])->name('detail');
 
 
 Route::get('/dashboard', function () {

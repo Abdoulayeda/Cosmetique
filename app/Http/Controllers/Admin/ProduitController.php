@@ -49,6 +49,9 @@ class ProduitController extends Controller
      $produit->titre = $request->titre;
      $produit->prix = $request->prix;
      $produit->prixpromo = $request->prixpromo;
+     $produit->promo = $request->promo;
+     $produit->ispromo = $request->ispromo;
+     $produit->stocke = $request->stocke;
      $produit->photo = $nomimage;
      $produit->description = $request->description;
      $produit->categories_id = $request->categorie;
